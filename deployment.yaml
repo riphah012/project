@@ -29,6 +29,6 @@ spec:
   type: NodePort
   ports:
   - protocol: TCP
-    port: 80         # Port your app serves traffic on
-    targetPort: 80   # Container port
-    nodePort: 30080  # External port to access from outside Minikube (optional, 30000–32767)
+    port: 80
+    targetPort: 80
+    nodePort: 30080
